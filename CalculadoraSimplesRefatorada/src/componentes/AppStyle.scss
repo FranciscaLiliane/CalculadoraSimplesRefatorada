@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(39, 39, 39);
+   // height: 25em;
+   margin: 0px;
+
+
+    
+}
+.conteiner{
+    width: 500px;
+    height: 450px;
+    background: #0c335c;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);	
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+.numbDireito{
+    /*definimos a largura do box*/
+	width:100px;
+	/* definimos a altura do box */
+	height:35px;
+	/* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 10px 10px;
+    border:none;
+    position: absolute;
+    top:30%;
+    right:51%;
+
+	
+}
+.numbEsquerdo{
+    /*definimos a largura do box*/
+	width:100px;
+	/* definimos a altura do box */
+	height:35px;
+	/* definimos o quão arredondado irá ficar nosso box */
+    border-radius: 10px 10px;
+    border:none;
+    position: absolute;
+    top:30%;
+    left:51%;
+
+	
+}
+.btn{
+	width:80px;
+	height:40px;
+	border-radius: 35px 50px;
+    border:none;
+    //background-color:#009edd;
+    position:absolute; 
+    top:45%;
+    left:50%;
+    transform: translate(-50%, -50%);	
+    font-size:20px;
+    font-family:Arial;
+    border-width:0px;
+    color:#fff;
+    //border-color:#0b0e07;
+    border-top-left-radius:7px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:7px;
+    box-shadow:inset -50px -50px 7px 0px #29bbff;
+    //text-shadow:inset 0px 1px 0px #263666;
+    background:linear-gradient(#2dabf9, #0688fa);
+}
+h1{
+    position: absolute;
+    top:15%;
+    right:21%;
+    color: white;
+
+}
+h2{
+    position:absolute; 
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);	
+    font: size 3px;  
+    color: white;
+}
